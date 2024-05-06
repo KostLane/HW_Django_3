@@ -1,0 +1,9 @@
+{% extends 'hw3app/base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+<table class="table table-striped">
+    {{ html | safe }}
+</table>
+{% endblock %}
